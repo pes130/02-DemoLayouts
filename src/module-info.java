@@ -7,4 +7,5 @@ module DemoLayouts {
 	
 	
 	exports es.cursojavafx.demolayouts;
+	opens es.cursojavafx.demolayouts.controller;
 }
