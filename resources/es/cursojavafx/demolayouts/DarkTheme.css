@@ -1,0 +1,20 @@
+.root { 
+    -fx-background-color: #111;
+    -fx-control-inner-background: gray;
+    -fx-control-inner-background-alt: lightgray;
+    /*-fx-background-image: url('sky.jpg');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;*/
+}
+
+.label{
+ 	-fx-text-fill: #FFF;
+}
+
+#btn1 {
+	-fx-text-fill: darkgreen;
+}
+
+.negrita {
+	-fx-font-weight: bold;
+}

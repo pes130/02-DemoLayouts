@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="264.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.cursojavafx.demolayouts.controller.CssEjemploController">
+   <children>
+      <Label fx:id="lblTitulo" text="Título" />
+      <Button fx:id="btn1" mnemonicParsing="false" text="Botón 1" />
+      <Label fx:id="lblTextoNormal" styleClass="negrita" text="Texto normal" />
+   </children>
+</VBox>

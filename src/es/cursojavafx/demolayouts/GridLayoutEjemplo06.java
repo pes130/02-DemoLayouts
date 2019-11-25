@@ -26,11 +26,11 @@ public class GridLayoutEjemplo06 extends Application {
 		ColorPicker cp = new ColorPicker();
 		
 		GridPane gridPane = new GridPane();
-		gridPane.setHgap(10);
+		gridPane.setHgap(15);
 		gridPane.setVgap(10);
 		gridPane.setAlignment(Pos.CENTER);
 		gridPane.setPadding(new Insets(20));
-		gridPane.setGridLinesVisible(true);
+		//gridPane.setGridLinesVisible(true);
 				
 		// Añadimos la primera fila
 		gridPane.add(btn1, 0, 0);
@@ -49,14 +49,11 @@ public class GridLayoutEjemplo06 extends Application {
 		
 		// Añadimos un color picker
 		gridPane.add(cp,  5, 5);
-
 		
 		Scene scene = new Scene(gridPane, 400, 400);
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("GridLayout Demo");
 		primaryStage.show();
-		
-
 	}
 
 	public static void main(String[] args) {
